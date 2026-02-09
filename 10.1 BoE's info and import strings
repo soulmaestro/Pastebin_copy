@@ -1,0 +1,27 @@
+10.1 BoE's info and import strings:
+
+-------------------------------------
+If you spread this information, 
+please give credit to me - Soulmaestro -,
+and provide a link to this specific pastebin
+-------------------------------------
+
+2 plate, 2 mail, 2 leather, 2 cloth , ilvl 415, added in the at this moment current patch 10.1,
+only ones showing up in the following filter <https://www.wowhead.com/items/min-req-level:70/max-req-level:70/quality:4?filter=82:3;2:1;100100:0#items>
+
+```204430 https://www.wowhead.com/item=204430/sanctum-guards-forgewalkers
+204429 https://www.wowhead.com/item=204429/devoted-wardens-gaze
+204423 https://www.wowhead.com/item=204423/faulds-of-failed-experiments
+204422 https://www.wowhead.com/item=204422/sundered-edgelords-breastplate
+204415 https://www.wowhead.com/item=204415/mantle-of-sunless-kindling
+204414 https://www.wowhead.com/item=204414/laboratory-assistants-abductors
+204411 https://www.wowhead.com/item=204411/crucible-curators-wingspan
+204410 https://www.wowhead.com/item=204410/bands-of-purified-purpose
+
+import-string usable for TSM and PBS: 
+i:204410,i:204411,i:204414,i:204415,i:204422,i:204423,i:204429,i:204430
+```
+
+edit : an auctionator/BPS export that can be used for import :
+```BoE's raid 10.1^Bands of Purified Purpose;Armor/Cloth/Wrist;0;0;0;0;0;0;0;0;;#;^Crucible Curator's Wingspan;Armor/Cloth/Shoulder;0;0;0;0;0;0;0;0;;#;^Laboratory Assistant's Abductors;Armor/Leather/Hands;0;0;0;0;0;0;0;0;;#;^Mantle of Sunless Kindling;Armor/Leather/Shoulder;0;0;0;0;0;0;0;0;;#;^Faulds of Failed Experiments;Armor/Mail/Waist;0;0;0;0;0;0;0;0;;#;^Sundered Edgelord's Breastplate;Armor/Mail/Chest;0;0;0;0;0;0;0;0;;#;^Devoted Warden's gaze;Armor/Plate/Head;0;0;0;0;0;0;0;0;;#;^Sanctum Guard's Forgewalkers;Armor/Plate/Feet;0;0;0;0;0;0;0;0;;#;
+```
