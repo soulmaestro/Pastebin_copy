@@ -1,0 +1,23 @@
+a macro to keep your toon at a certain amount of gold, taking from a guildbank if it's below it, putting the extra into the guildbank if it's above it:
+you got to be at the guildbank when you use this and have the right to deposit gold into and take gold from that guildbank.
+
+/script local m=GetMoney();local l=10000000; if (m<l) then WithdrawGuildBankMoney((l-m)) elseif (m>l) then DepositGuildBankMoney((m-l)) end
+
+that l=10000000 is in copper - in this case equal to 1000g - adjust as you want
+-------------------------------------
+
+A macro that tells you if your realm is connected to other realms and lists all connected realms:
+```
+/run local realms = GetAutoCompleteRealms()  s="" if(realms[1]) then s="\nConnected Realms:" for k, v in pairs(realms) do s=s.."\n"..v end else s="Your realm is not connected." end print(s)
+```
+-----------------------------
+to know on which realm you are after joining a (farm-)group.
+edit in 2023: this doesn't gives you the realm you phase to, just the realmname your toon is on:
+/run local realmName = GetRealmName() DEFAULT_CHAT_FRAME:AddMessage("You are currently on realm: " .. realmName)
+-----------------------------
+
+To cage battle pets easier:
+hover over a pet and press the macro
+/run C_PetJournal.CagePetByID(GetMouseFoci()[1].petID)
+
+-------------------------------
