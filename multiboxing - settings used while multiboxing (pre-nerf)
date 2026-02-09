@@ -1,0 +1,21 @@
+based on the video guide of Multiboxology / Mirai : https://www.youtube.com/watch?v=KiyDPf7DCRs
+
+high settings:
+/console graphicsViewDistance 8
+/console graphicsEnvironmentDetail 7
+/console graphicsGroundCluttter 7
+/console graphicsShadowQuality 5
+/console graphicsParticleDenity 4
+/console graphicsSSAO 4
+/console renderscale 1.0
+/console MSAAQuality 1.0
+
+low settings : 
+/console graphicsViewDistance 2
+/console graphicsEnvironmentDetail 2
+/console graphicsGroundCluttter 2
+/console graphicsShadowQuality 3
+/console graphicsParticleDenity 1
+/console graphicsSSAO 1
+/console renderscale 1.0
+/console MSAAQuality 0.0
